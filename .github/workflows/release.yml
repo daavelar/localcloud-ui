@@ -33,5 +33,5 @@ jobs:
           file: full.Dockerfile
           push: true
           tags: |
-            ${{ secrets.DOCKER_USERNAME }}/localstack-ui:${{ env.VERSION }}
-            ${{ secrets.DOCKER_USERNAME }}/localstack-ui:latest
+            ${{ secrets.DOCKER_USERNAME }}/localcloud-ui:${{ env.VERSION }}
+            ${{ secrets.DOCKER_USERNAME }}/localcloud-ui:latest
