@@ -10,7 +10,7 @@ services:
         image: localstack/localstack
         network_mode: host
         environment:
-            - SERVICES=sns,sqs
+            - SERVICES=sns,sqs,s3
             - DEBUG=1
         volumes:
             - localstack-vol:/var/lib/localstack

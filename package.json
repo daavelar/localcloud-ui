@@ -23,6 +23,7 @@
     "dependencies": {
         "@kyvg/vue3-notification": "^3.4.0",
         "@vitejs/plugin-vue": "^5.1.4",
+        "@vueuse/core": "^11.1.0",
         "socket.io-client": "^4.8.0",
         "vue": "^3.5.10",
         "vue-router": "^4.4.5",

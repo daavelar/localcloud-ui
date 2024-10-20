@@ -1,11 +1,11 @@
 import {createRouter, createWebHistory} from 'vue-router';
-import TopicAndQueues from "./components/MainPage.vue";
+import MainPage from "./components/MainPage.vue";
 
 const routes = [
     {
         path: '/',
-        name: 'TopicAndQueues',
-        component: TopicAndQueues
+        name: 'MainPage',
+        component: MainPage
     }
 ];
 

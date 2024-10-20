@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\BucketController;
 use App\Http\Controllers\MessageController;
 use App\Http\Controllers\QueueController;
 use App\Http\Controllers\SubscriptionController;
@@ -26,3 +27,8 @@ Route::get('subscriptions', [SubscriptionController::class, 'index']);
 Route::post('subscriptions', [SubscriptionController::class, 'store']);
 Route::get('topics/{topic}/subscriptions', [SubscriptionController::class, 'topic']);
 Route::post('subscriptions/delete', [SubscriptionController::class, 'destroy']);
+
+Route::get('buckets', [BucketController::class, 'index']);
+Route::post('buckets', [BucketController::class, 'store']);
+Route::delete('buckets/{name}', [BucketController::class, 'destroy']);
+Route::get('buckets/{name}', [BucketController::class, 'show']);
