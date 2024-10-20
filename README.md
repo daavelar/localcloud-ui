@@ -6,7 +6,7 @@ At this moment is only possible to manage AWS services
 This project integrates various components such as a frontend, API, Laravel Reverb,
 Redis, MySQL, and Horizon.
 
-![Localstack UI](https://raw.githubusercontent.com/daavelar/localstack-ui/refs/heads/main/public/img/print-localstack-ui.png)
+![Localstack UI](https://raw.githubusercontent.com/daavelar/localstack-ui/refs/heads/main/public/img/print-localcloud-ui.png)
 
 Until this moment is possible to:
 - Create and manage SQS Queues
