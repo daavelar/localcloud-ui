@@ -29,5 +29,5 @@ COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 RUN mkdir -p /var/log/php-fpm && chown -R www-data:www-data /var/log/php-fpm
 COPY start.sh /start.sh
 RUN chmod +x /start.sh
-EXPOSE 80
+EXPOSE 8090
 CMD ["/start.sh"]

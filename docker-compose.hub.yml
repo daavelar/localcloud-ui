@@ -3,7 +3,7 @@ services:
         container_name: localstack-ui
         image: diegueradev/localstack-ui:1.0.8
         ports:
-            - "80:80"
+            - "80:8090"
 
     localstack:
         container_name: localstack

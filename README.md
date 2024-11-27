@@ -12,4 +12,4 @@ Until this moment is possible to:
 - Create and manage SQS Queues
 - Create and manage SNS Topics
 - Send messages to SNS Topics
-- Create subscriptions to SNS Topicsredi
+- Create subscriptions to SNS Topics
